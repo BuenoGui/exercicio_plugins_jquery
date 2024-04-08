@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.perguntas {
+    display: grid;
+    padding: 6px;
+}
+
+button {
+    width: 140px;
+    height: 46px;
+}

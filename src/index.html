@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Formulario</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Dados Obrigatorios!</h1>
+    </header>
+
+    <form>
+        <div class="perguntas">
+            <label>Nome Completo:</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div class="perguntas">
+            <label>Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="perguntas">
+            <label>Celular:</label>
+            <input type="tel" name="numero" id="numero">
+        </div>
+
+        <div class="perguntas">
+            <label>CPF:</label>
+            <input type="text" name="cpf" id="cpf">
+        </div>
+
+        <div class="perguntas">
+            <label>CEP:</label>
+            <input type="text" name="cep" id="cep">
+        </div>
+
+        <div class="perguntas">
+            <label>Selecione o estado:</label>
+                <select id="estado" name="estado">
+                    <option value="" disabled selected></option>
+                    <option value="AC">Acre (AC) </option>
+                    <option value="AL">Alagoas (AL) </option>
+                    <option value="AP">Amapá (AP) </option>
+                    <option value="AM">Amazonas (AM) </option>
+                    <option value="BA">Bahia (BA) </option>
+                    <option value="CE">Ceará (CE) </option>
+                    <option value="DF">Distrito Federal (DF) </option>
+                    <option value="ES">Espírito Santo (ES) </option>
+                    <option value="GO">Goiás (GO) </option>
+                    <option value="MA">Maranhão (MA) </option>
+                    <option value="MT">Mato Grosso (MT) </option>
+                    <option value="MS">Mato Grosso do Sul (MS) </option>
+                    <option value="MG">Minas Gerais (MG) </option>
+                    <option value="PA">Pará (PA) </option>
+                    <option value="PB">Paraíba (PB) </option>
+                    <option value="PR">Paraná (PR) </option>
+                    <option value="PE">Pernambuco (PE) </option>
+                    <option value="PI">Piauí (PI) </option>
+                    <option value="RJ">Rio de Janeiro (RJ) </option>
+                    <option value="RN">Rio Grande do Norte (RN) </option>
+                    <option value="RS">Rio Grande do Sul (RS) </option>
+                    <option value="RO">Rondônia (RO) </option>
+                    <option value="RR">Roraima (RR) </option>
+                    <option value="SC">Santa Catarina (SC) </option>
+                    <option value="SP">São Paulo (SP) </option>
+                    <option value="SE">Sergipe (SE) </option>
+                    <option value="TO">Tocantins (TO) </option>
+                </select>
+            </div>
+
+            <div class="perguntas">
+            <label>Cidade:</label>
+            <input type="text" name="cidade" id="cidade">
+        </div>
+
+        <div class="perguntas">
+            <label>Endereço adicional:</label>
+            <input type="text" name="rua" id="rua">
+        </div>
+
+        <div class="perguntas">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
